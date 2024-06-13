@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Title</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Blog Post Title</h1>
+                <p class="text-muted">By Author Name | Date</p>
+                <img src="img/example-image.jpg" class="img-fluid" alt="...">
+                <p>This is the full content of the blog post. You can write paragraphs, include images, and more.</p>
+
+                <div class="mt-4">
+                    <h4>Comments</h4>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Commenter Name</h5>
+                            <p class="card-text">This is a comment on the blog post.</p>
+                        </div>
+                    </div>
+                    <!-- Repeat the card div for more comments -->
+
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Leave a Comment</h5>
+                            <form>
+                                <div class="form-group">
+                                    <label for="commentName">Name</label>
+                                    <input type="text" class="form-control" id="commentName" placeholder="Your name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="commentContent">Comment</label>
+                                    <textarea class="form-control" id="commentContent" rows="3" placeholder="Your comment"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">About Me</h5>
+                        <p class="card-text">This is a brief introduction about the blog author.</p>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Categories
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Technology</li>
+                        <li class="list-group-item">Lifestyle</li>
+                        <li class="list-group-item">Travel</li>
+                        <li class="list-group-item">Food</li>
+                    </ul>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Popular Posts
+                    </div>
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action">Post 1</a>
+                        <a href="#" class="list-group-item list-group-item-action">Post 2</a>
+                        <a href="#" class="list-group-item list-group-item-action">Post 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5 p-4 text-center">
+        &copy; 2024 My Blog. All Rights Reserved.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to bottom, #0e0e0e, #1f4874, #62a162);
+    color: #ffffff;
+height: 100%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 1rem;
+}
+
+.navbar-nav .btn {
+    margin-left: 1rem;
+}
+
+.display-4 {
+    font-weight: bold;
+}
+
+.nav-pills .nav-link {
+    color: #ffffff;
+    border-radius: 0;
+    margin-right: 1rem;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border: none;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #b3b3b3;
+}
+
+.badge {
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 767.98px) {
+    .nav-pills {
+        flex-direction: column;
+    }
+}
+.about-section {
+    background-image: url('/images/c.png');
+    background-size: cover;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 20px;
+    max-height: 500px; /* Set your desired max height */
+    overflow: hidden; /* Hide overflow content */
+}
+.card-img-top {
+    max-height: 150px; /* Adjust image height as needed */
+    object-fit: cover; /* Ensure image covers the area */
+}
+@media (min-width: 768px) {
+    .card {
+        /* width: 80%;  */
+        margin: 0 auto 20px auto;
+    }
+}
+.card-body {
+    overflow: auto; /* Allow scrolling for text overflow */
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.about-body{
+height: 100vh;
+}
